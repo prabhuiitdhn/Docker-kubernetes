@@ -4,27 +4,26 @@ The repository is for documentation with commands for Docker and Kubernetes is b
 
 Index.html file is just to run the docker and map to localhost to see If docker is being successfully pulled or run it.
 
-# Docker-Documentation
+## Docker-Documentation.
 
-Tutorial link:
+### Tutorial link:
 
 https://www.youtube.com/watch?v=Wf2eSG3owoA&ab_channel=freeCodeCamp.org
 
-Docker is for packaging the build-content in a image[container.] & later this container will ne running somewhere which will orcheraste somewhere is known as Kubernetes.
+> Docker is for packaging the build-content in a image [container.] & later this container will ne running somewhere which will orcheraste somewhere is known as Kubernetes.
 
-Kubernetes will orcherests the multiple container which will talk to each other, and It helps/maintain to communicate between all the container using Kubernetes.
+> Kubernetes will orcherests the multiple container which will talk to each other, and It helps/maintain to communicate between all the container using Kubernetes.
 
-Docker is a tool for running applications in an issolated environemt. SImilar to virtual machine and but it is faster and does not required more memory for ruuning it.
+> Docker is a tool for running applications in an issolated environemt. SImilar to virtual machine and but it is faster and does not required more memory for ruuning it. It is standard for software deployment, Used for packaging applications.
 
-it is standard for software deployment, Used for packaging applications.
-
-conatainer: It is an abstraction at the app layer that packages the code and dependencies together. Multiple container can run on the same machien and share the OS kernel with other container, each running isolated appication
+**Container**: It is an abstraction at the app layer that packages the code and dependencies together. Multiple container can run on the same machien and share the OS kernel with other container, each running isolated appication
 Virtual machine: It includes full copy of OS and required so much of memory than docker.
 Uisng docker, It can run container in seconds instaed of miniutes, less resources and uses less memory and not reuired full operation system
 testing can be done locally.
 
-command:Open terminal
+command: 
 
+    Open terminal
     docker # check if installation is done or not
     docker --version # return the installed docker version.
     docker ps # It will work when docker demon will run or docker starts
@@ -168,14 +167,16 @@ __Pushing container into container registry.__
   which used to store and lets us distribute the docker images in a server side application and ci/cd pipelines
   Also, it runs the applications using kubernetes, aws, googlecloud
 
-  two types of docker registry
-  1. private
-  2. public:
+  Two types of docker registry
+  
+  - private
+  - public
 
   we do have docker registry
+  
   1. docker Hub
-  2. quay.io
-  3. Amazon ECR
+  1. quay.io
+  1. Amazon ECR
 
   In docker hub, create a new repository and use following command to push the local images in dockerhub
   for docker repository
